@@ -10,3 +10,5 @@ while x > 1:
         x = x/2
     print(x)
 print(x)
+
+#put in failsafes
