@@ -4,7 +4,8 @@
 
 x = input("Please enter a sentence:")
 
-end = x.split()
+y = x.split()
+z = y[::2]
 
-#for i in end, i+2
-print(end[::2])
+for i in z:
+    print(i)
