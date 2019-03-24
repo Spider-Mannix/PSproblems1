@@ -3,7 +3,7 @@
 #use datetime
 import datetime
 
-#set variable for today
+#set variable for today. strftime('%A') expresses day as its full name e.g. "Monday"
 day = datetime.datetime.today().strftime('%A')
 
 #comma as string to tidy whitespace
