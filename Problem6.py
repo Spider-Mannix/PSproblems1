@@ -2,9 +2,9 @@
 
 #use whitespace as a separator? Then while loop?
 
-x = input("Please enter a sentence")
+x = input("Please enter a sentence:")
 
 end = x.split()
 
 #for i in end, i+2
-    print(end[i])
+print(end[::2])
