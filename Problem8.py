@@ -5,4 +5,4 @@ import datetime
 
 day = datetime.datetime.today()
 
-print(day.strftime("%A, %B %Dth %Y at %I:%M%p"))
+print(day.strftime("%A, %B %dth %Y at %I:%M%p"))
