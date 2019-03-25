@@ -3,6 +3,6 @@
 #use datetime
 import datetime
 
-day = datetime.datetime.today().strftime('%A')
+day = datetime.datetime.today()
 
-print(day)
+print(day.strftime("%A, %B %Dth %Y at %I:%M%p"))
