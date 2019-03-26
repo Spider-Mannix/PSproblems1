@@ -6,4 +6,4 @@ fls = open(txt,'r')
 x23 = fls.read()
 lines = x23.split('\n')
 
-print(lines[0])
+print(lines[::2])
