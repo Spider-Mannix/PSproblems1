@@ -1,9 +1,16 @@
 #output every second line from a text file
 
-#read text file then split like problem 6 but with new line operator e.g. split(/n)
-txt = str(input("File name to open?"))
-fls = open(txt,'r')
+#use command line arguments
+import sys 
+
+#read text file then split by new line
+txt = sys.argv
+fls = open(txt[1],'r')
 x23 = fls.read()
 lines = x23.split('\n')
 
-print(lines[::2])
+#every second line
+vnm = lines[::2]
+
+for i in vnm:
+    print(i)
