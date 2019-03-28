@@ -1,5 +1,6 @@
-# ask for number 
+#output the sum of integers between one and input number
 
+# ask for input number 
 while True:
     try:
         x = int(input("Please input a postive integer: "))
@@ -13,13 +14,11 @@ while True:
     except ValueError:
         print("We're looking for a whole number greater than 0")
 
-# "\n"
-
 #create variables
 ans = 0
 i = 1
 
-# from lecture video:
+#from lecture video:
 while i <= x:
     ans = ans + i
     i = i + 1
