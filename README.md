@@ -4,3 +4,15 @@ This is a repository of my solutions to the Python problem set for the Programmi
 
 The aforementioned problem set is available at the following location:
 https://github.com/ianmcloughlin/problems-pands-2019/raw/master/problems.pdf
+
+
+##To download this repository
+
+1. Go to the repository page on Github
+2. Click the download button
+
+Ensure Pyhton is installed on your machine to be able to run the code.
+
+##File Descriptions
+
+Problem1.py asks for the user input of a positive integer, then sums all integers 
