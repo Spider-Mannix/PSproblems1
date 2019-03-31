@@ -13,6 +13,26 @@ https://github.com/ianmcloughlin/problems-pands-2019/raw/master/problems.pdf
 
 Ensure Pyhton is installed on your machine to be able to run the code.
 
-##File Descriptions
+##File Descriptions and Usage
 
-Problem1.py asks for the user input of a positive integer, then sums all integers 
+Problem1.py asks for the user input of a positive integer, then sums all integers between one and the input number.
+
+Problem2.py is run by itself. It checks whether the current day of the week starts with a "T".
+
+Problem3.py is run by itself. It prints all numbers between 1000 and 10000 that are divisible by 6 but not 12.
+
+Problem4.py asks for the input of a positive integer and performs a calculation on that number. It calculates the next value
+by taking the current value and, if it is even, dividing it by two, but if it is odd, multiplying
+it by three and add one. It then ends the program if the current value is one.
+
+Problem5.py asks for the input of a positive integer and checks whether that number is a prime number.
+
+Problem6.py asks for the input of a string, then returns every second word of that string.
+
+Problem7.py asks for the input of a positive number and an estimated answer to what the approximate square root of the positive number might be. It then uses that estimate to approximate the square root of the number via the Newtonian method.
+
+Problem8.py is run by itself. It takes today's date and time and prints it in the format: Monday, January 10th 2019 at 1:15pm.
+
+Problem9.py takes an argument at the command line. The argument shpould be the name of a text file, which the program reads and prints out every second line.
+
+Problem10.py is run by itself. It makes use of pyplot to plot a function of x, x^2 and 2^x in range [0,4]
