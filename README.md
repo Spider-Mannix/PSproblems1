@@ -11,7 +11,11 @@ https://github.com/ianmcloughlin/problems-pands-2019/raw/master/problems.pdf
 1. Go to the repository page on Github
 2. Click the download button
 
-Ensure Pyhton is installed on your machine to be able to run the code.
+##Prerequites
+
+Ensure Python is installed on your machine to be able to run the code.
+
+Is it also recommended that you install Cmder, a command-line interface with greater functionality than the regular Windows console, for runnning the programs. 
 
 ##File Descriptions and Usage
 
@@ -36,3 +40,21 @@ Problem8.py is run by itself. It takes today's date and time and prints it in th
 Problem9.py takes an argument at the command line. The argument shpould be the name of a text file, which the program reads and prints out every second line.
 
 Problem10.py is run by itself. It makes use of pyplot to plot a function of x, x^2 and 2^x in range [0,4]
+
+##Authors
+
+[Dave Mannix](https://github.com/Spider-Mannix)
+
+##References/Acknowledgements
+
+[Ian McLoughlin](https://github.com/ianmcloughlin) - Programming and Scripting lecturer at GMIT and programme co-ordinator. 
+
+[Python Library](https://docs.python.org/3/library/) - Research predominantly done here, particularly with regard to datetime.
+
+[W3 Schools](https://www.w3schools.com/python/) - Used when requiring quick explanations of certain aspects of Python, such as mathematical and logic operators.
+
+[Stack Overflow](https://stackoverflow.com/) - Used primarily for suggesting content for further study.
+
+[Marvel Comics](https://www.marvel.com/) - For inspiring my username and some variable names.
+
+[Robert Frost](https://www.poemhunter.com/poem/provide-provide/) - For writing my favourite poem, "Provide, Provide", which I used as the text file to test the usage of Problem9.py.
